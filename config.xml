@@ -1,7 +1,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.tapitoo.opencart2010" version="1.1" versionCode="3">
-	
-	<widget id="com.tapitoo.PortalAdHoc" version="3.2.0" versionCode="146" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-	
+<!--
+    com.tapitoo.PushApp          com.test.claimed            <widget id="com.tapitoo.PortalAdHoc" version="3.2.0" versionCode="146" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+-->
 <name>Tapitoo OpenCart</name>
 <content src="index.html"/>
 <description>Tapitoo	OpenCart</description>
@@ -10,7 +10,6 @@
 <feature name="http://api.phonegap.com/1.0/geolocation"/>
 <feature name="http://api.phonegap.com/1.0/network"/>
 <preference name="phonegap-version" value="3.5.0"/>
-<preference name="phonegap-version" value="cli-6.5.0" />
 <preference name="HideKeyboardFormAccessoryBar" value="true"/>
 <preference name="DisallowOverscroll" value="true"/>
 <preference name="orientation" value="portrait"/>
@@ -58,31 +57,32 @@
 <gap:splash gap:platform="ios" height="1024" src="res/screen/ios/screen-ipad-portrait.png" width="768"/>
 <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024"/>
 <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg"/>
-
-
+<gap:plugin name="org.apache.cordova.network-information" source="npm"/>
+<gap:plugin name="com.vliesaputra.deviceinformation" source="npm"/>
+<gap:plugin name="org.apache.cordova.device" source="npm"/>
 <gap:plugin name="org.apache.cordova.geolocation" source="npm"/>
 <gap:plugin name="org.apache.cordova.dialogs" source="npm"/>
 <gap:plugin name="org.apache.cordova.splashscreen" source="npm"/>
-<gap:plugin name="org.apache.cordova.core.dialogs" source="npm"/>
-<gap:plugin name="com.ionic.keyboard" source="npm"/>
-<gap:plugin name="com.phonegap.plugin.statusbar" source="npm"/>
-<gap:plugin name="org.apache.cordova.console" source="npm"/>
+<gap:plugin name="org.apache.cordova.core.dialogs"source="npm"/>
+<gap:plugin name="com.ionic.keyboard" version="1.0.3"/>
+<gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0"/>
+<gap:plugin name="org.apache.cordova.console" version="0.2.11"/>
 <gap:plugin name="onesignal-cordova-plugin-pgb-compat" source="npm"/>
-<gap:plugin name="cordova-plugin-googleplayservices"  source="npm"/>
+<gap:plugin name="cordova-plugin-googleplayservices" source="npm"/>
 <gap:plugin name="cordova-plugin-android-support-v4" source="npm"/>
-
-	<gap:plugin name="com.ionic.keyboard" source="npm"/>
-<gap:plugin name="com.onesignal.plugins.onesignal" source="npm"/>
-<gap:plugin name="com.phonegap.plugin.statusbar" source="npm"/>
-<gap:plugin name="com.vliesaputra.deviceinformation" source="npm"/>
-<gap:plugin name="org.apache.cordova.console" source="npm"/>
-<gap:plugin name="org.apache.cordova.core.dialogs" source="npm"/>
-<gap:plugin name="org.apache.cordova.device" source="npm"/>
-<gap:plugin name="org.apache.cordova.dialogs" source="npm"/>
-<gap:plugin name="org.apache.cordova.geolocation"  source="npm"/>
-<gap:plugin name="org.apache.cordova.network-information" source="npm"/>
-<gap:plugin name="org.apache.cordova.splashscreen" source="npm"/>
-	
+<!--
+	<gap:plugin name="com.ionic.keyboard" version="1.0.1" />
+<gap:plugin name="com.onesignal.plugins.onesignal" version="1.9.0" />
+<gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
+<gap:plugin name="com.vliesaputra.deviceinformation" version="1.0.1" />
+<gap:plugin name="org.apache.cordova.console" version="0.2.11" />
+<gap:plugin name="org.apache.cordova.core.dialogs" version="0.2.10" />
+<gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+<gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
+<gap:plugin name="org.apache.cordova.geolocation" version="0.3.10" />
+<gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
+<gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
+-->
 <gap:config-file platform="ios" parent="UIStatusBarHidden">
 <true/>
 </gap:config-file>

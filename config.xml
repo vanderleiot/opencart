@@ -63,11 +63,11 @@
 <gap:plugin name="org.apache.cordova.dialogs" source="npm"/>
 <gap:plugin name="org.apache.cordova.splashscreen" source="npm"/>
 <gap:plugin name="org.apache.cordova.core.dialogs" source="npm"/>
-<gap:plugin name="com.ionic.keyboard" version="1.0.3"/>
-<gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0"/>
-<gap:plugin name="org.apache.cordova.console" version="0.2.11"/>
+<gap:plugin name="com.ionic.keyboard" source="npm"/>
+<gap:plugin name="com.phonegap.plugin.statusbar" source="npm"/>
+<gap:plugin name="org.apache.cordova.console" source="npm"/>
 <gap:plugin name="onesignal-cordova-plugin-pgb-compat" source="npm"/>
-<gap:plugin name="cordova-plugin-googleplayservices" source="npm"/>
+<gap:plugin name="cordova-plugin-googleplayservices"  source="npm"/>
 <gap:plugin name="cordova-plugin-android-support-v4" source="npm"/>
 
 	<gap:plugin name="com.ionic.keyboard" version="1.0.1" />

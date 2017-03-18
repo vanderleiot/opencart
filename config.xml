@@ -59,7 +59,7 @@
 <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg"/>
 
 
-<gap:plugin name="org.apache.cordova.geolocation" />
+<gap:plugin name="org.apache.cordova.geolocation" source="npm"/>
 <gap:plugin name="org.apache.cordova.dialogs" />
 <gap:plugin name="org.apache.cordova.splashscreen" />
 <gap:plugin name="org.apache.cordova.core.dialogs" />

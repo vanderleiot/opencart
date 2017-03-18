@@ -57,7 +57,7 @@
 <gap:splash gap:platform="ios" height="1024" src="res/screen/ios/screen-ipad-portrait.png" width="768"/>
 <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024"/>
 <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg"/>
-<gap:plugin name="org.apache.cordova.network-information" source="npm"/>
+<gap:plugin name="org.apache.cordova.network-information"/>
 <gap:plugin name="com.vliesaputra.deviceinformation" source="npm"/>
 <gap:plugin name="org.apache.cordova.device" source="npm"/>
 <gap:plugin name="org.apache.cordova.geolocation" source="npm"/>
@@ -70,7 +70,7 @@
 <gap:plugin name="onesignal-cordova-plugin-pgb-compat" source="npm"/>
 <gap:plugin name="cordova-plugin-googleplayservices" source="npm"/>
 <gap:plugin name="cordova-plugin-android-support-v4" source="npm"/>
-<!--
+
 	<gap:plugin name="com.ionic.keyboard" version="1.0.1" />
 <gap:plugin name="com.onesignal.plugins.onesignal" version="1.9.0" />
 <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
@@ -82,7 +82,7 @@
 <gap:plugin name="org.apache.cordova.geolocation" version="0.3.10" />
 <gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
 <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
--->
+	
 <gap:config-file platform="ios" parent="UIStatusBarHidden">
 <true/>
 </gap:config-file>
